@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    font-family:arial;
+
+}
+.clearfix:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.c-topheader {
+    background-color: white;
+    padding-bottom: 22px;
+  }
+.c-topheader__menu{
+    background: url("../images/menuIcon.png");
+    background-size: 20px 13px;
+    width: 6.25%;
+    height: 13px;
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+.c-topheader__right{
+    background: url("../images/bagIcon.png");
+    background-size: 19px 24px;
+    width: 6.25%;
+    height: 24px;
+    background-repeat: no-repeat;
+    float: right;
+    margin-right: 12px;
+    margin-top: 15px;
+}
+.c-topheader__verticalline{
+    background-color: #e5e5e5;
+    width: 0.3125%;
+    height: 20px;
+    float: left;
+    margin-top: 17px;
+    margin-left: 10px;
+}
+.c-topheader__dropdownicon{
+    background: url("../images/dropdownArrow.png");
+    background-size: 15px 8px;
+    width: 4.68%;
+    height: 8px;
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 10px;
+    margin-top: 23px;
+
+}
+.c-vincelogo {
+    width: 39.84%;
+    height: 30px;
+    text-align: center;
+    float: left;
+    margin-left: 37px;
+    margin-top: 13px;
+
+}
+.c-vincelogo img{
+
+    width: 127.5px;
+    height: 30px;
+ }
+ .c-innerheader{
+     text-align:center;
+     BACKGROUND-COLOR:#e5e5e5;
+     padding-top:11px;
+     padding-bottom:11px;
+     font-size:13px;
+ }
+ .c-innerheader p span{
+     text-decoration:underline;
+ }
+ .c-choice{
+     font-size:10px;
+     margin-left:10px;
+     margin-top:15px;
+ }
+ .c-choice__home{
+
+     color:#000000;
+     margin-right:5px;
+ }
+ .c-choice__cart{
+     color:#d9d9d9;
+     margin-left:10px;
+ }
+ .c-bag{
+     margin-top:15px;
+     margin-left:10px;
+     margin-right:10px;
+     margin-bottom:18px;
+ }
+ .c-bag__name{
+     float:left;
+ }
+ .c-bag__cost{
+     float:right;
+ }
+ .c-bag__cost p span{
+     font-weight:bold;
+ }
+ .c-checkout{
+     margin-left:10px;
+     margin-right:10px;
+ }
+
+.c-checkout__button{
+    color: #ffffff;
+    background: #000000;
+    font-size: 16px;
+    height: 50px;
+    width: 100%;
+    padding: 0px;
+    margin: 0 0 10.5px;
+    outline:none;
+    text-align:center;
+    padding:16px 0px;
+}
+.c-product{
+
+    border-bottom: 1px solid  #e5e5e5;
+    margin:0px 15px;
+}
+.c-product__left{
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 5px;
+    padding-top:10px;
+}
+ .image{
+    width: 80px;
+    height: 80px;
+}
+.c-product__description{
+    text-decoration:underline;
+    background: #fff;
+    width: 100%;
+    font-size: 12px;
+    padding: 0 0 0 4px;
+    margin-top: 8px;
+    text-align: left;
+    margin-left:20px;
+}
+.c-product__right{
+    width: 73%;
+    display: inline-block;
+    padding-left: 5px;
+    margin-top:15px;
+}
+.c-product__name{
+    font-size: 14px;
+    color: #010101;
+    font-family: "BlairITCStd-Light";
+    width: 70%;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 17px;
+    text-decoration:none;
+}
+.c-product__cost{
+    float: right;
+    font-size:14px;
+
+}
+.c-product__available{
+    color: #ff1493;
+    font-size: 14px;
+    margin-bottom:2px;
+}
+.c-product__quantity{
+    padding-bottom:15px;
+}
+.c-product__quantity select{
+    width: 30%;
+    height: 40px;
+    border: 1px solid #d9d9d9;
+    border-radius: 0;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 9px;
+    background-color:white;
+}
+.c-product__size{
+    color: #010101;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.c-product__number{
+    font-size: 14px;
+    color: #bbb;
+    margin-bottom:2px;
+}
+.c-product__totalprice{
+    color: #010101;
+    font-size: 14px;
+    float: right;
+    display: inline-block;
+    margin-top: 9px;
+    line-height:40px;
+  }
+
+  .c-subtotal{
+      float: left;
+      padding: 0 .4em 0 0;
+      margin: 0;
+      border-bottom: none;
+      color: #000;
+      font-size:14px;
+
+  }
+  .c-subtotal-value{
+      font-weight:bold;
+  }
+  .c-dots{
+     overflow:hidden;
+     border-bottom:2px dotted #000;
+     height:12px;
+  }
+  .c-value{
+      float: right;
+      padding: 0 0 0 1.3em;
+      margin: 0;
+      border-bottom: none;
+      color: #000;
+  }
+  .c-summary{
+      margin-left:10px;
+      margin-right:10px;
+  }
+
+
+h2{
+    font-weight: normal;
+    font-size: 16px;
+    margin: 11px 0px;
+}
+.c-coupon{
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:14px;
+    margin-bottom:10px;
+}
+.c-coupon-code{
+    width:71.66%;
+    margin-right:10px;
+    float:left;
+    padding-left:10px;
+    border:2px solid #e5e5e5;
+    padding-top:10px;
+    padding-bottom:10px;
+    outline:none;
+}
+.c-coupon-apply{
+    width:25%;
+    float:right;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:black;
+    border:2px solid black;
+    color:white;
+    outline:none;
+}
+.c-email-join{
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:14px;
+    margin-bottom:10px;
+}
+.c-emailid{
+    width:71.66%;
+    margin-right:10px;
+    float:left;
+    padding-left:10px;
+    border:2px solid #e5e5e5;
+    padding-top:10px;
+    padding-bottom:10px;
+    outline:none;
+}
+.c-join{
+    width:25%;
+    float:right;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:black;
+    border:2px solid black;
+    color:white;
+    outline:none;
+}
+.c-continue{
+    color: black;
+    font-family: "BlairITCStd-Light";
+    font-size: 12px;
+    margin: 16px 0 19px;
+    text-align: center;
+    display: block;
+    text-decoration: underline;
+}
+.c-footerheading{
+    background: #f2f2f2;
+    text-align: center;
+    font-size: 16px;
+    padding: 11px 0 6px;
+    font-weight: normal;
+}
+.c-firstpara
+{
+    padding: 0 5px;
+}
+.c-secpara{
+    padding:0px 5px;
+}
+.c-secpara span{
+    text-decoration:underline;
+}
+.c-thirdpara{
+    padding-bottom: 11px;
+    border-bottom: 1px #e5e5e5 solid;
+}
+.c-thirdpara span{
+    text-decoration:underline;
+}
+.c-footer-description{
+    text-align:center;
+    background-color:#f2f2f2;
+    font-size:15px;
+}
+.c-email{
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.c-footer-email {
+    border-radius: 0;
+    height: 40px;
+    padding: 0px 10px;
+    width: 71.666%;
+    float:left;
+}
+.c-footer-email input{
+    height:40px;
+}
+.c-footer-join input{
+    background-color:black;
+    display:inline-block;
+    color:white;
+    padding: 0px 0px 5px;
+    border: none;
+    position:absolute;
+    height: 40px;
+    font-size:16px;
+    width:25%;
+
+}
+.c-link-facebook{
+    background-image: url("../images/facebook.png");
+}
+.c-link-pininterest{
+    background-image: url("../images/pinterest.png");
+}
+.c-link-twitter{
+    background-image:url("../images/twitter.png");
+}
+.c-link-youtube{
+    background-image: url("../images/youtube.png")
+}
+.c-link-instagram{
+    background-image: url("../images/instagram.png");
+}
+.c-link-common{
+    background-size: 20px 20px;
+  margin: 0 3.8%;
+  width: 10%;
+  background-repeat:no-repeat;
+  height: 33px;
+  background-position: 1px 1px;
+  display:inline-block;
+
+}
+.c-links{
+    text-align: center;
+  padding: 5px 0px 10px;
+  margin-left: -7px;
+}
+.c-newsletter-signup{
+    margin-top:18px;
+    margin-bottom:14px;
+    margin-left:11px;
+    margin-right:10px;
+}
+.c-contact-number{
+    text-align:center;
+    font-size: 12px;
+    padding-bottom: 20px;
+    padding-top:20px;
+
+}
+.c-contact-number span{
+    text-decoration:underline;
+}
+.c-footer-logo{
+    text-align:center;
+    margin-top:27px;
+    margin-bottom:10px;
+}
+.c-footer-logo img{
+    width: 34px;
+    height: 35px;
+
+}
+.c-copyright{
+    text-align:center;
+}
+
+.c-estimated-cost{
+    margin-top:24px;
+    font-size:18px;
+    font-weight:bold;
+}
